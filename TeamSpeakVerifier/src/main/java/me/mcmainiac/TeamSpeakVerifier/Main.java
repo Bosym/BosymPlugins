@@ -27,15 +27,7 @@ public class Main extends Plugin {
             if (Config.getBoolean("debug"))
                 Log.info("Debug mode enabled!");
 
-            db = new MySQLDB(
-                    Config.getString("database.host"),
-                    Config.getInt("database.port"),
-                    Config.getString("database.username"),
-                    Config.getString("database.password"),
-                    Config.getString("database.name")
-            );
-
-            db.connect();
+            Main.getDb(); // initialize db
 
             bot = new TS3Bot();
         } catch (SQLException e) {
@@ -44,11 +36,6 @@ public class Main extends Plugin {
             if (Config.getBoolean("debug"))
                 e.printStackTrace();
             Log.info("If this is the first time you start this plugin, don't worry, just edit the config.yml");
-            Main.forceDisable();
-        } catch (ClassNotFoundException e) {
-            Log.severe("MySQL Connector-J not found! Please install it and try again!");
-            if (Config.getBoolean("debug"))
-                e.printStackTrace();
             Main.forceDisable();
         } catch (Config.Exception e) {
             Log.severe("You have an error in your config.yml:");
@@ -68,7 +55,8 @@ public class Main extends Plugin {
     @Override
     public void onDisable() {
         try {
-            db.disconnect();
+            if (db != null)
+                db.disconnect();
         } catch (SQLException e) {
             Log.severe("An error occurred while disconnecting from your database:");
             Log.severe(e.getMessage());
@@ -95,6 +83,8 @@ public class Main extends Plugin {
     }
 
     public static TS3Api getTS3Api(TS3Query query) {
+        query.connect();
+
         TS3Api api = query.getApi();
 
         api.login(
@@ -123,5 +113,33 @@ public class Main extends Plugin {
         api.setNickname(Config.getString("teamspeak.nickname"));
 
         return api;
+    }
+
+    public static TS3Bot getBot() {
+        return bot;
+    }
+
+    public static MySQLDB getDb() throws SQLException {
+        try {
+            if (db == null)
+                db = new MySQLDB(
+                        Config.getString("database.host"),
+                        Config.getInt("database.port"),
+                        Config.getString("database.username"),
+                        Config.getString("database.password"),
+                        Config.getString("database.name")
+                );
+
+            if (!db.isConnected())
+                db.connect();
+
+            return db;
+        } catch (ClassNotFoundException e) {
+            Log.severe("MySQL Connector-J not found! Please install it and try again!");
+            if (Config.getBoolean("debug"))
+                e.printStackTrace();
+            Main.forceDisable();
+        }
+        return null;
     }
 }

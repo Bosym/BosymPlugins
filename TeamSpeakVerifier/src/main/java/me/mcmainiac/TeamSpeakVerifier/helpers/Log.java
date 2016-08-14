@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 public class Log {
     private static final Logger log = Logger.getLogger("Minecraft");
 
-    private static final String prefix = "[Forum]: ";
+    private static final String prefix = "[TeamSpeakVerifier]: ";
 
     static {
         log.setUseParentHandlers(false);

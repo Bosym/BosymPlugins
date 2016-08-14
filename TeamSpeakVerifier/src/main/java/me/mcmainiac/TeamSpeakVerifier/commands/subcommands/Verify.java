@@ -1,7 +1,9 @@
 package me.mcmainiac.TeamSpeakVerifier.commands.subcommands;
 
+import me.mcmainiac.TeamSpeakVerifier.Main;
 import me.mcmainiac.TeamSpeakVerifier.helpers.Messages;
 import net.md_5.bungee.api.CommandSender;
+import net.md_5.bungee.api.connection.ProxiedPlayer;
 
 public class Verify {
     public static void execute(CommandSender sender, String[] args) {
@@ -10,6 +12,17 @@ public class Verify {
             return;
         }
 
-        // TODO: Verify code the user has entered
+        if (!(sender instanceof ProxiedPlayer)) {
+            Messages.sendRaw(sender, "Sorry, but this is a player only command!");
+            return;
+        }
+
+        String code = args[2];
+
+        if (Main.getBot().verifyCode((ProxiedPlayer) sender, code)) {
+            Messages.send(sender, "minecraft.messages.success");
+        } else {
+            Messages.send(sender, "minecraft.messages.failed");
+        }
     }
 }

@@ -6,11 +6,17 @@ import com.github.theholywaffle.teamspeak3.api.event.ClientJoinEvent;
 import com.github.theholywaffle.teamspeak3.api.event.ClientLeaveEvent;
 import com.github.theholywaffle.teamspeak3.api.event.TS3EventAdapter;
 import com.github.theholywaffle.teamspeak3.api.event.TS3EventType;
+import me.mcmainiac.TeamSpeakVerifier.db.MySQLDB;
+import me.mcmainiac.TeamSpeakVerifier.helpers.Config;
+import me.mcmainiac.TeamSpeakVerifier.helpers.Log;
+import net.md_5.bungee.api.connection.ProxiedPlayer;
 
+import java.sql.SQLException;
 import java.util.HashMap;
 
 public class TS3Bot {
     private final TS3Query query;
+
     private HashMap<Integer, VerifyWorker> workers = new HashMap<>();
     private HashMap<String, VerifyWorker> codes = new HashMap<>();
 
@@ -42,11 +48,36 @@ public class TS3Bot {
         });
     }
 
-    public void addCode(String code, VerifyWorker worker) {
-        this.codes.put(code, worker);
+    public boolean verifyCode(ProxiedPlayer p, String code) {
+        if (this.codes.containsKey(code))
+            return false;
+
+        VerifyWorker worker = this.codes.get(code);
+
+        if (worker.verify(code)) {
+            try {
+                MySQLDB db = Main.getDb();
+
+                HashMap<String, Object> values = new HashMap<>();
+                values.put(Config.getString("database.table.mcuuidcol"), p.getUniqueId().toString());
+                values.put(Config.getString("database.table.tsuidcol"), worker.getClientInfo().getUniqueIdentifier());
+
+                db.insert(Config.getString("database.table.name"), values);
+            } catch (SQLException e) {
+                Log.severe("An sql exception occurred while verifying a code:");
+                Log.severe(e.getMessage());
+                if (Config.getBoolean("debug"))
+                    e.printStackTrace();
+                return false;
+            }
+
+            this.codes.remove(code);
+            return true;
+        } else
+            return false;
     }
 
-    public void removeCode(String code) {
-        this.codes.remove(code);
+    public void addCode(String code, VerifyWorker worker) {
+        this.codes.put(code, worker);
     }
 }

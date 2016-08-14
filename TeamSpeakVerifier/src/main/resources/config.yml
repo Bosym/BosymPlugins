@@ -1,30 +1,34 @@
 database:
-  host: localhost
+  host: 'localhost'
   port: 3306
-  username: root
-  password: root
-  name: bungeecord
+  username: 'root'
+  password: 'root'
+  name: 'bungeecord'
+  table:
+    name: 'teamspeak_uids'
+    mcuuidcol: 'mcuuid'
+    tsuidcol: 'tsuid'
 
 teamspeak:
-  host: localhost
+  host: 'localhost'
   port: 9987
-  username: admin
-  password: admin
-  nickname: Bot
-  command: !verify
+  username: 'admin'
+  password: 'admin'
+  nickname: 'Bot'
+  command: '!verify'
   messages:
-    onjoin: Welcome! Please use !verify <MC-Username> to verify your account.
-    oninvalidmessage: You entered an invalid command! Please use !verify <MC-Username> to verify your account.
-    ontoofewarguments: Usage: !verify <MC-Username>
-    invite: Please go ingame and use /teamspeak verify %CODE% # %CODE% will be replaced with a random code
-    timeout: Your code has been expired! Please get a new one with !verify <MC-Username>
+    onjoin: 'Welcome! Please use !verify <MC-Username> to verify your account.'
+    oninvalidmessage: 'You entered an invalid command! Please use !verify <MC-Username> to verify your account.'
+    ontoofewarguments: 'Usage: !verify <MC-Username>'
+    invite: 'Please go ingame and use /teamspeak verify %CODE%' # %CODE% will be replaced with a random code
+    timeout: 'Your code has been expired! Please get a new one with !verify <MC-Username>'
 
 # use color codes with §
 minecraft:
   messages:
-    invite: §8[§5TeamSpeak§8]§f Verify your TeamSpeak account using: §a/teamspeak verify <your code>
-    failed: §8[§5TeamSpeak§8]§c Verification failed!
-    success: §8[§5TeamSpeak§8]§a Your TeamSpeak account has been verified!
-    toofewargs: §8[§5TeamSpeak§8]§c Usage: /teamspeak verify <your code>
+    invite: '§8[§5TeamSpeak§8]§f Verify your TeamSpeak account using: §a/teamspeak verify <your code>'
+    failed: '§8[§5TeamSpeak§8]§c Verification failed!'
+    success: '§8[§5TeamSpeak§8]§a Your TeamSpeak account has been verified!'
+    toofewargs: '§8[§5TeamSpeak§8]§c Usage: /teamspeak verify <your code>'
 
 debug: false

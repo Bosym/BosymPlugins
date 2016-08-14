@@ -106,6 +106,29 @@ public class MySQLDB {
         return stmt.executeUpdate(sql);
     }
 
+    public void insert(String table, HashMap<String, Object> values) throws SQLException {
+        String sql = "INSERT INTO `" + table + "` ";
+
+        sql += '(';
+
+        for (String key : values.keySet())
+            sql += key + ",";
+
+        sql = sql.substring(0, sql.length() - 1) + ") VALUES (";
+
+        for (String key : values.keySet())
+            sql += values.get(key) + ",";
+
+        sql = sql.substring(0, sql.length() - 1) + ")";
+
+        reset = false;
+        lastQuery = sql;
+        if (Config.getBoolean("debug"));
+            Log.info("Executing query: \"" + sql + "\"");
+        Statement stmt = con.createStatement();
+        stmt.executeQuery(sql);
+    }
+
     public String getLastQuery() {
         return lastQuery;
     }
