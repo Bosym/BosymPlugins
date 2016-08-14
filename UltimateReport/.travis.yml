@@ -1,0 +1,9 @@
+sudo: false
+language: java
+notifications:
+  webhooks:
+    urls:
+      secure: UA+IoWYZ3g0Q4W+3il+mCTIWJfn9v+sOOEaXu3IJAZoZEOkxwszUgE0rvALaOX5njHgSRcVpCMbzO8Dn1cqA+JWiPSYpfT1dZNb+COLXCqXVFduuB8j3cqfTRvF6zKY6yTPBlOBrnIDkSD3V3jfoIZ1oZOv8FmJE2h/+hH8W/vMATwmS1PMCsUhj8Uv8bkc/bzpy75qMevjPb92GdVsGiAooH5DXp/aqh4x4nLsafekcxLsaRyA2Gv+BCcgR6dgurDNJE0WEpY9NZx6kTfUmzop0ggBnEr+oeIuYMnKK2LujHCPpRsb60Le3uVbDx2ThigaofnrA9vOWai0Hp14o9p0Yuc3pQlUf5Vi5b1BnY2MQponsRmeIm67+KpWjBbOHt9sLFrjMbOJWfrN9JrnlzhTTHNWXl+N9K4G/Nk9kLZhV3Yci07ds3XwpyO2bXlqD2n8feu4XtfDjBL2V1JWJts9PWWKyHKsqtjbZ/c7e4CbRvhCP/b3JZCxAAfZFlaiFOqlO0qykH1/tgNcD6qwvKo9JGtu8jxkrNpav7ZdzCzizklxDf3DyjU+wZ8atWAtrojP2sZDf26C2U0pygU/04fIwXyoEXB+iK0B8t7xa9sN7QrEE/bjtEV6kpI2Ff5noNzyEdpPzgprElsEp/WDOoU1tKsL4DVY2oalVRQiO9PE=
+    on_success: change
+    on_failure: always
+    on_start: never

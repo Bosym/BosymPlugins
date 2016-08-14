@@ -1,0 +1,42 @@
+#  _   _ _ _   _                 _       ____                       _
+# | | | | | |_(_)_ __ ___   __ _| |_ ___|  _ \ ___ _ __   ___  _ __| |_
+# | | | | | __| | '_ ` _ \ / _` | __/ _ \ |_) / _ \ '_ \ / _ \| '__| __|
+# | |_| | | |_| | | | | | | (_| | ||  __/  _ <  __/ |_) | (_) | |  | |_
+#  \___/|_|\__|_|_| |_| |_|\__,_|\__\___|_| \_\___| .__/ \___/|_|   \__|
+#                                                 |_|
+
+UltimateReport:
+  # Set here the Prefix that should be in front of all Messages.
+  Prefix: '&7[&3UltimateReport&7] &r'
+  # Put in here your Language Code you want to use for Messages. It requires a "messages_<languagecode>.properties" in /plugins/UltimateReport/locale to exist
+  Locale: en
+  # How long should be the Cooldown in seconds? Set to 0 to disable.
+  Cooldown: 60
+  # Set here the Server we should use to convert UUIDs. Choose "EU" or "US" based on your SERVERS LOCATION and not your location
+  # Only allowed: EU or US
+  ConvertServer: eu
+  # Should a few Messages be clickable? For example when a user reports another user, you can click on the Message to join the Server of the reported User
+  ClickableMsgs: true
+  # Don't change this unless you want reset your config on startup
+  Version: '2.0'
+
+Logging:
+  # Should Reports be logged to a File
+  File: false
+  # Should Reports be logged to the Console
+  Console: true
+  # Should Reports be logged to the MySQL Database? If disabled, only waiting reports will be saved in the Database.
+  # If disabled, the latest Command will be disabled.
+  MySQL: true
+
+MySQL:
+  # Put in here your IP Adress that is used to connect to your MySQL Server
+  Adress: localhost
+  # Put in here your Port that is used to connect to your MySQL Server
+  Port: 3306
+  # Put in here your Database that is used to store the Data in it
+  Database: UltimateReport
+  # Put in here your Username that is used to login into the MySQL Server
+  Username: root
+  # Put in here your Password that is used to login into the MySQL Server. Leave blank if you don't have one
+  Password: 'passw0rd'

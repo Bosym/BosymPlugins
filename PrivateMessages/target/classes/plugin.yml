@@ -1,0 +1,5 @@
+name: PrivateMessages
+version: 1.0
+author: MCMainiac
+
+main: me.mcmainiac.PrivateMessages.PrivateMessages
