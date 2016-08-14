@@ -21,6 +21,9 @@ public class Main extends Plugin {
 
             Config.init(this);
 
+            if (Config.getBoolean("debug"))
+                Log.info("Debug mode enabled!");
+
             db = new MySQLDB(
                     Config.getString("database.host"),
                     Config.getInt("database.port"),
@@ -55,5 +58,17 @@ public class Main extends Plugin {
         Log.severe(instance.getDescription().getName() + " got force-disabled!");
         instance.getProxy().getPluginManager().unregisterCommands(instance);
         instance.onDisable();
+    }
+
+    @Override
+    public void onDisable() {
+        try {
+            db.disconnect();
+        } catch (SQLException e) {
+            Log.severe("An error occured while disconnecting from your database:");
+            Log.severe(e.getMessage());
+            if (Config.getBoolean("debug"))
+                e.printStackTrace();
+        }
     }
 }
