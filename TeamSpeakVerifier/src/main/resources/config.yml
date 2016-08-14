@@ -5,4 +5,11 @@ database:
   password: root
   name: bungeecord
 
+teamspeak:
+  host: localhost
+  port: 9987
+  username: admin
+  password: admin
+  nickname: Bot
+
 debug: false

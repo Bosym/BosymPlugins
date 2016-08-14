@@ -29,8 +29,12 @@ public class MySQLDB {
         this.name = name;
     }
 
-    private Class<?> checkDriver() throws ClassNotFoundException {
-        return Class.forName("com.mysql.jdbc.Driver");
+    private void checkDriver() throws ClassNotFoundException {
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw e;
+        }
     }
 
     public void connect() throws SQLException, ClassNotFoundException {
@@ -110,7 +114,7 @@ public class MySQLDB {
         return this.connected;
     }
 
-    private void reset() throws SQLException {
+    private void reset() {
         selectors = "";
         reset = true;
     }

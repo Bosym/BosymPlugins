@@ -54,10 +54,6 @@ public class Config {
         return config.getBoolean(path);
     }
 
-    public static Object get(String path) {
-        return config.get(path);
-    }
-
     public static class Exception extends java.lang.Exception {
         Exception(String message, Throwable previous) { super(message, previous); }
     }

@@ -5,7 +5,7 @@ import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 public class Log {
-    private static Logger log = Logger.getLogger("Minecraft");
+    private static final Logger log = Logger.getLogger("Minecraft");
 
     private static final String prefix = "[Forum]: ";
 
