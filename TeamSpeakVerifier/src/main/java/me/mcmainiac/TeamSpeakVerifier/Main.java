@@ -1,6 +1,7 @@
 package me.mcmainiac.TeamSpeakVerifier;
 
 import com.github.theholywaffle.teamspeak3.TS3Api;
+import com.github.theholywaffle.teamspeak3.TS3ApiAsync;
 import com.github.theholywaffle.teamspeak3.TS3Config;
 import com.github.theholywaffle.teamspeak3.TS3Query;
 import me.mcmainiac.TeamSpeakVerifier.db.MySQLDB;
@@ -14,26 +15,7 @@ import java.util.logging.Level;
 public class Main extends Plugin {
     private static MySQLDB db;
     private static Main instance;
-    private static final TS3Api api;
-    private static final TS3Query query;
-
-    static {
-        final TS3Config tsc = new TS3Config();
-
-        tsc.setHost(Config.getString("teamspeak.host"));
-
-        if (Config.getBoolean("debug"))
-            tsc.setDebugLevel(Level.ALL); // default is Level.WARNING
-
-        tsc.setQueryPort(Config.getInt("teamspeak.port"));
-
-       query = new TS3Query(tsc);
-
-        api = query.getApi();
-        api.login(Config.getString("teamspeak.username"), Config.getString("teamspeak.password"));
-        api.selectVirtualServerById(1);
-        api.setNickname(Config.getString("teamspeak.nickname"));
-    }
+    private static TS3Bot bot;
 
     @Override
     public void onEnable() {
@@ -55,7 +37,7 @@ public class Main extends Plugin {
 
             db.connect();
 
-            query.connect();
+            bot = new TS3Bot();
         } catch (SQLException e) {
             Log.severe("Could not connect to database:");
             Log.severe(e.getMessage());
@@ -93,5 +75,53 @@ public class Main extends Plugin {
             if (Config.getBoolean("debug"))
                 e.printStackTrace();
         }
+    }
+
+    public static TS3Config getTS3Config() {
+        final TS3Config config = new TS3Config();
+
+        config.setHost(Config.getString("teamspeak.host"));
+
+        if (Config.getBoolean("debug"))
+            config.setDebugLevel(Level.ALL); // default is Level.WARNING
+
+        config.setQueryPort(Config.getInt("teamspeak.port"));
+
+        return config;
+    }
+
+    public static TS3Query getTS3Query(TS3Config config) {
+        return (new TS3Query(config)).connect();
+    }
+
+    public static TS3Api getTS3Api(TS3Query query) {
+        TS3Api api = query.getApi();
+
+        api.login(
+                Config.getString("teamspeak.username"),
+                Config.getString("teamspeak.password")
+        );
+
+        api.selectVirtualServerById(1);
+
+        api.setNickname(Config.getString("teamspeak.nickname"));
+
+        return api;
+    }
+
+    public static TS3ApiAsync getTS3ApiAsync(TS3Query query) {
+        TS3ApiAsync api = query.getAsyncApi();
+
+
+        api.login(
+                Config.getString("teamspeak.username"),
+                Config.getString("teamspeak.password")
+        );
+
+        api.selectVirtualServerById(1);
+
+        api.setNickname(Config.getString("teamspeak.nickname"));
+
+        return api;
     }
 }
