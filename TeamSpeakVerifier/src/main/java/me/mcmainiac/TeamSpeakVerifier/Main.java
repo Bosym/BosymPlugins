@@ -43,11 +43,17 @@ public class Main extends Plugin {
             if (Config.getBoolean("debug"))
                 e.printStackTrace();
             Main.forceDisable();
+        } catch (Exception e) {
+            Log.severe("An exception occured:");
+            Log.severe(e.getMessage());
+            if (Config.getBoolean("debug"))
+                e.printStackTrace();
+            Main.forceDisable();
         }
     }
 
     public static void forceDisable() {
-        Log.severe(instance.getDescription().getName() + " got force-disabled!");
+        Log.severe("Disabling " + instance.getDescription().getName() + "...");
         instance.getProxy().getPluginManager().unregisterCommands(instance);
         instance.onDisable();
     }
@@ -57,8 +63,16 @@ public class Main extends Plugin {
         try {
             if (db != null)
                 db.disconnect();
+
+            if (bot != null)
+                bot.disconnect();
         } catch (SQLException e) {
             Log.severe("An error occurred while disconnecting from your database:");
+            Log.severe(e.getMessage());
+            if (Config.getBoolean("debug"))
+                e.printStackTrace();
+        } catch (Exception e) {
+            Log.severe("An error occurred while disabling " + instance.getDescription().getName() + ":");
             Log.severe(e.getMessage());
             if (Config.getBoolean("debug"))
                 e.printStackTrace();
@@ -69,11 +83,12 @@ public class Main extends Plugin {
         final TS3Config config = new TS3Config();
 
         config.setHost(Config.getString("teamspeak.host"));
+        config.setQueryPort(Config.getInt("teamspeak.queryport"));
+
+        config.setFloodRate(TS3Query.FloodRate.LONG);
 
         if (Config.getBoolean("debug"))
-            config.setDebugLevel(Level.ALL); // default is Level.WARNING
-
-        config.setQueryPort(Config.getInt("teamspeak.port"));
+            config.setDebugLevel(Level.ALL); // default level is warning
 
         return config;
     }

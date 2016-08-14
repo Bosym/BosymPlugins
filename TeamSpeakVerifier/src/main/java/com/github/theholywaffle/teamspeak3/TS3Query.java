@@ -42,6 +42,7 @@ import java.util.logging.Logger;
 public class TS3Query {
 
 	public enum FloodRate {
+		LONG(1000),
 		DEFAULT(350),
 		UNLIMITED(0);
 

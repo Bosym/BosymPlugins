@@ -11,7 +11,7 @@ database:
 
 teamspeak:
   host: 'localhost'
-  port: 9987
+  queryport: 10011 # default server query port
   username: 'admin'
   password: 'admin'
   nickname: 'Bot'

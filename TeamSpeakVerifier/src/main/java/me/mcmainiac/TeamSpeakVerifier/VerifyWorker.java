@@ -19,6 +19,7 @@ public class VerifyWorker implements Runnable {
     private final int clientid;
     private final TS3Query query;
     private String code;
+    private boolean run = true;
 
     VerifyWorker(TS3Query _query, int _clientid) {
         this.query = _query;
@@ -27,6 +28,10 @@ public class VerifyWorker implements Runnable {
 
     @Override
     public void run() {
+        if (!run) return;
+
+        run = false;
+
         final TS3ApiAsync api = Main.getTS3ApiAsync(query);
 
         api.sendTextMessage(TextMessageTargetMode.CLIENT, clientid, Config.getString("teamspeak.messages.onjoin"));
@@ -34,8 +39,6 @@ public class VerifyWorker implements Runnable {
         api.addTS3Listeners(new TS3EventAdapter() {
             @Override
             public void onTextMessage(TextMessageEvent e) {
-                super.onTextMessage(e);
-
                 if (!e.getTargetMode().equals(TextMessageTargetMode.CLIENT))
                     return;
 

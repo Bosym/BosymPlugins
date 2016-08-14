@@ -15,21 +15,27 @@ import java.sql.SQLException;
 import java.util.HashMap;
 
 public class TS3Bot {
-    private final TS3Query query;
+    private TS3Query query = null;
 
     private HashMap<Integer, VerifyWorker> workers = new HashMap<>();
     private HashMap<String, VerifyWorker> codes = new HashMap<>();
 
     public TS3Bot() {
-        query = Main.getTS3Query(Main.getTS3Config());
+        try {
+            query = Main.getTS3Query(Main.getTS3Config());
+        } catch (Exception e) {
+            Log.severe("Failed to connect to teamspeak server!");
+            if (Config.getBoolean("debug"))
+                e.printStackTrace();
+            Main.forceDisable();
+            return;
+        }
 
         final TS3Api api = Main.getTS3Api(query);
         api.registerEvent(TS3EventType.SERVER);
         api.addTS3Listeners(new TS3EventAdapter() {
             @Override
             public void onClientJoin(ClientJoinEvent e) {
-                super.onClientJoin(e);
-
                 final Integer id = e.getClientId();
                 final VerifyWorker worker = new VerifyWorker(query, id);
 
@@ -41,8 +47,6 @@ public class TS3Bot {
 
             @Override
             public void onClientLeave(ClientLeaveEvent e) {
-                super.onClientLeave(e);
-
                 workers.remove(e.getClientId());
             }
         });
@@ -75,6 +79,11 @@ public class TS3Bot {
             return true;
         } else
             return false;
+    }
+
+    public void disconnect() {
+        if (query != null)
+            query.exit();
     }
 
     public void addCode(String code, VerifyWorker worker) {

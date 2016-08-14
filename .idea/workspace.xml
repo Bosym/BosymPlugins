@@ -5,213 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ae4e6b-3007-4bcb-b5f1-11650611d07d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/EventManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/KeepAliveThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/QueryIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/SocketReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/SocketWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Api.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3ApiAsync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Query.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/Callback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/ChannelProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/ClientProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/Codec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/CodecEncryptionMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/CommandFuture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/HostBannerMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/HostMessageMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/LogLevel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/PermissionGroupDatabaseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/PermissionGroupType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/PrivilegeKeyType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/Property.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/ReasonIdentifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/ServerGroupType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/ServerInstanceProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/Snapshot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/TextMessageTargetMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/VirtualServerProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/VirtualServerStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/BaseEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelCreateEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelDeletedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelDescriptionEditedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelEditedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelMovedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ChannelPasswordChangedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ClientJoinEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ClientLeaveEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ClientMovedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/PrivilegeKeyUsedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/ServerEditedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3Event.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3EventAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3EventType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TS3Listener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/event/TextMessageEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3CommandFailedException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3ConnectionFailedException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3Exception.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3UnknownErrorException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/exception/TS3UnknownEventException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/ConnectionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/DisconnectingConnectionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectingConnectionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Ban.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Binding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Channel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelGroupClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ClientInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Complaint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ConnectionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/CreatedVirtualServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/DatabaseClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/DatabaseClientInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/HostInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/InstanceInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Permission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/PermissionAssignment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/PermissionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/PrivilegeKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/QueryError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ServerGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ServerGroupClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/ServerQueryInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Version.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/VirtualServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/VirtualServerInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/api/wrapper/Wrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CBanAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CBanClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CBanDel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CBanDelAll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CBanList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CBindingList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelAddPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelClientAddPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelClientDelPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelClientPermList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelCreate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelDelPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelDelete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelEdit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupAddPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupClientList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupCopy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupDel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupDelPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupPermList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelGroupRename.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelMove.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CChannelPermList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientAddPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientDBDelete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientDBEdit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientDBFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientDBInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientDBList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientDelPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientEdit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientGetDBIdFromUId.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientGetIds.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientKick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientMove.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientPermList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientPoke.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientSetServerQueryLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CClientUpdate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CComplainAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CComplainDel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CComplainDelAll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CComplainList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CGM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CHostInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CInstanceEdit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CInstanceInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CLogout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CMessageAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CMessageDel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CMessageGet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CMessageList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CMessageUpdateFlag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPermFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPermGet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPermIdGetByName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPermOverview.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPermReset.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPermissionList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyDelete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyUse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CQuit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CSendTextMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerCreate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerDelete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerEdit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupAddClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupAddPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupAutoAddPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupAutoDelPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupClientList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupCopy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupDel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupDelClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupDelPerm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupPermList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupRename.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerGroupsByClientId.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerIdGetByPort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerNotifyRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerNotifyUnregister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerProcessStop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerRequestConnectionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerSnapshotCreate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerSnapshotDeploy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerStart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CServerStop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CSetClientChannelGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CUse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CVersion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CWhoAmI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/CommandEncoding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/ArrayParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/KeyValueParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/OptionParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/Parameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/RawParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/parameter/ValueParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/commands/response/DefaultArrayResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/log/LogHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Forum/Forum.iml" afterPath="$PROJECT_DIR$/Forum/Forum.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/TeamSpeakVerifier.iml" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/TeamSpeakVerifier.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Query.java" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Query.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/commands/subcommands/Verify.java" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/commands/subcommands/Verify.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/db/MySQLDB.java" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/db/MySQLDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/helpers/Log.java" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/helpers/Log.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/config.yml" />
     </list>
     <ignored path="BosymPlugins.iws" />
@@ -244,8 +44,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,11 +53,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/config.yml">
+      <file leaf-file-name="QueryIO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/QueryIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="537">
+              <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/SocketWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/SocketReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TS3Query.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Query.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TS3Config.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -266,11 +106,36 @@
       <file leaf-file-name="TS3Bot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+            <state relative-caret-position="240">
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1790#1791#0" expanded="true" />
+                <element signature="e#1853#1854#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <element signature="e#1405#2926#0" expanded="true" />
+                <element signature="e#2925#2926#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -309,12 +174,13 @@
         <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/commands/Teamspeak.java" />
         <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/helpers/Messages.java" />
         <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/commands/subcommands/Verify.java" />
-        <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java" />
         <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/db/MySQLDB.java" />
-        <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java" />
         <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/helpers/Log.java" />
-        <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java" />
         <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/config.yml" />
+        <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java" />
+        <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java" />
+        <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Query.java" />
+        <option value="$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java" />
       </list>
     </option>
   </component>
@@ -412,6 +278,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Forks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BosymPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Bosym" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
             </PATH_ELEMENT>
@@ -491,146 +367,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BosymPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bosym" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BosymPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bosym" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BosymPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bosym" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BosymPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bosym" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSpeakVerifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subcommands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1115,7 +851,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471197392894</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated">
+      <created>1471201811338</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1471201811339</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1129,20 +872,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28424656" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2043379" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26369864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2043379" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2043379" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.49457365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.49457365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1212,8 +955,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2605#2606#0" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
+            <element signature="e#3220#3221#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1348,26 +1091,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/helpers/Log.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1391,30 +1118,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java">
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java">
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="595">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1405#2926#0" expanded="true" />
+            <element signature="e#2925#2926#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/SocketReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/QueryIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/SocketWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/com/github/theholywaffle/teamspeak3/TS3Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1471,12 +1259,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TeamSpeakVerifier|Bosym</last-edited>
+          <last-edited>BungeecordPartyAndFriends|Forks</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3413793" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
