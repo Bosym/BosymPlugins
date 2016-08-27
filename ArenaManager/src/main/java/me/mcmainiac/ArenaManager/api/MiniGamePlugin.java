@@ -22,7 +22,8 @@ public abstract class MiniGamePlugin extends JavaPlugin {
                 StringBuilder sb = new StringBuilder();
 
                 sb.append('[').append(sdf.format(new Date())).append(' ');
-                sb.append(record.getLevel().toString().toUpperCase()).append("]: ");
+                sb.append(record.getLevel().toString().toUpperCase()).append("] ");
+                sb.append("[" + name + "]");
                 sb.append(record.getMessage());
 
                 System.out.println(sb.toString());
