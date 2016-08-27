@@ -8,8 +8,10 @@ import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 public abstract class MiniGamePlugin extends JavaPlugin {
+    protected final static String name = MiniGamePlugin.class.getAnnotation(MiniGame.class).name();
+    protected final static ArenaType type = MiniGamePlugin.class.getAnnotation(MiniGame.class).type();
+
     protected static Logger log = Logger.getLogger("Minigame");
-    protected static String name = null;
 
     static {
         log.setUseParentHandlers(false);
