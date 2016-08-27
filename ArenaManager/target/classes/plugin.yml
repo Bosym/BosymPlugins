@@ -1,0 +1,10 @@
+name: ArenaManager
+version: 1.0
+author: MCMainiac
+
+main: me.mcmainiac.ArenaManager.ArenaManagerMain
+
+commands:
+  arenamanager:
+    description: ArenaManager main command
+    permission: arenamanager.edit

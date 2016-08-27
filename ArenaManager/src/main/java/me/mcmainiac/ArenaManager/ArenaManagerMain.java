@@ -3,13 +3,12 @@ package me.mcmainiac.ArenaManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.logging.Handler;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 public class ArenaManagerMain extends JavaPlugin {
-    private static final Logger log = Logger.getLogger("Minecraft");
+    private static final Logger log = Logger.getLogger("ArenaManager");
 
     static {
         log.setUseParentHandlers(false);
@@ -19,9 +18,6 @@ public class ArenaManagerMain extends JavaPlugin {
             @Override
             public void publish(LogRecord record) {
                 StringBuilder sb = new StringBuilder();
-
-                sb.append('[').append(sdf.format(new Date())).append(' ');
-                sb.append(record.getLevel().toString().toUpperCase()).append("] ");
                 sb.append("[ArenaManager]: ");
                 sb.append(record.getMessage());
 
