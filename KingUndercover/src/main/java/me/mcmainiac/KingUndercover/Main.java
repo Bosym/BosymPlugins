@@ -5,7 +5,7 @@ import me.mcmainiac.ArenaManager.api.MiniGamePlugin;
 import org.bukkit.Bukkit;
 
 public class Main extends MiniGamePlugin {
-    private Game game;
+    public static Game game;
 
     @Override
     public void onEnable() {
@@ -19,6 +19,6 @@ public class Main extends MiniGamePlugin {
 
     @Override
     public void onDisable() {
-        game.end();
+        game.exit();
     }
 }

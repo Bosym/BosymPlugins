@@ -3,38 +3,39 @@ package me.mcmainiac.KingUndercover;
 import be.maximvdw.titlemotd.ui.Title;
 import me.mcmainiac.ArenaManager.api.MiniGamePlugin;
 import me.mcmainiac.ArenaManager.api.utils.GameCountdown;
-import org.bukkit.ChatColor;
+import org.bukkit.Bukkit;
 import org.bukkit.Instrument;
 import org.bukkit.Note;
 import org.bukkit.entity.Player;
 
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.logging.Logger;
 
 class Game {
-    private MiniGamePlugin plugin;
-    private HashSet<Player> players = new HashSet<Player>();
+    public static final int minplayers = 2;
+
     private GameState state = GameState.PREMATCH;
     private Logger log;
+    private MiniGamePlugin plugin;
     private MessageProccessor msg = new MessageProccessor();
     private GameCountdown cd = new GameCountdown();
+    private HashMap<Player, PlayerState> players = new HashMap<Player, PlayerState>();
 
     public Game(MiniGamePlugin plugin) {
         this.plugin = plugin;
         this.log = plugin.log;
 
-        this.cd.setStart(10);
+        this.cd.setStart(5);
+        this.cd.setSleepTime(1500);
         this.cd.setTickAction(new GameCountdown.TickAction() {
             public void run() {
-                if (this.getCurrent() > 0) {
-                    for (Player p : players)
-                        p.playNote(p.getLocation(), Instrument.PIANO, Note.natural(3, Note.Tone.C));
-                    Title t = new Title(String.valueOf(this.getCurrent()) + "s", "bis zum Start...");
-                    t.setTitleColor(ChatColor.GREEN);
-                    t.setSubtitleColor(ChatColor.GOLD);
+                if (this.getCurrent() > 1) {
+                    for (Player p : Bukkit.getOnlinePlayers())
+                        p.playNote(p.getLocation(), Instrument.PIANO, Note.natural(1, Note.Tone.C));
+                    Title t = new Title("§6§l" + String.valueOf(this.getCurrent()), "§abis zum Start...");
                     t.broadcast();
                 } else {
-                    this.run();
+                    Game.this.run();
                 }
             }
         });
@@ -48,10 +49,14 @@ class Game {
 
     private void run() {
         state = GameState.RUNNING;
-        Title t = new Title("Das Spiel beginnt!", "Besiege das gegnerische Team, indem du ihren König tötest und dann alle anderen tötest!");
-        t.setTitleColor(ChatColor.GOLD);
-        t.setSubtitleColor(ChatColor.DARK_GRAY);
+        for (Player p : Bukkit.getOnlinePlayers())
+            p.playNote(p.getLocation(), Instrument.PIANO, Note.natural(1, Note.Tone.F));
+        Title t = new Title("§6Das Spiel beginnt!", "§7Besiege den gegnerischen König!");
         t.broadcast();
+    }
+
+    public GameState getState() {
+        return this.state;
     }
 
     public void end() {
@@ -59,19 +64,41 @@ class Game {
             case PREMATCH:
                 log.info("Game start aborted.");
                 state = GameState.POSTMATCH;
+
+                Bukkit.broadcastMessage("§cDas Spiel wurde abgebrochen!");
                 break;
             case STARTING:
                 cd.stop();
                 log.info("Game countdown stopped and game start aborted.");
                 state = GameState.POSTMATCH;
+
+                Bukkit.broadcastMessage("§cDer Spielstart wurde abgebrochen!");
                 break;
             case RUNNING:
                 state = GameState.POSTMATCH;
                 log.info("Game has been ended.");
+
+                Bukkit.broadcastMessage("§cDas Spiel wurde abgebrochen!");
                 break;
             case POSTMATCH:
                 log.info("Game has already ended.");
+
+                Bukkit.broadcastMessage("§cDas Spiel ist zu ende!");
                 break;
         }
+
+        Bukkit.broadcastMessage("§8Du wirst in 3s zurück zum Lobby Server geschickt.");
+        Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+            public void run() {
+                for (Player p : Bukkit.getOnlinePlayers())
+                    p.performCommand("server lobby");
+
+                Game.this.exit();
+            }
+        }, 3000);
+    }
+
+    public void exit() {
+        Bukkit.getServer().shutdown();
     }
 }
