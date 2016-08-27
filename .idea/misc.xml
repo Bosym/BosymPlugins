@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/Citizens2/pom.xml" />
         <option value="$PROJECT_DIR$/Citizens2/main/pom.xml" />
         <option value="$PROJECT_DIR$/Forum/pom.xml" />
+        <option value="$PROJECT_DIR$/ArenaManager/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -29,5 +30,5 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="JDK 1.8_102" project-jdk-type="JavaSDK" />
 </project>

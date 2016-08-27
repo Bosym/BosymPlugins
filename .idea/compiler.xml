@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ArenaManager" />
         <module name="BungeecordPartyAndFriends" />
         <module name="citizens-main" />
         <module name="citizens-v1_10_R1" />
@@ -30,6 +31,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ArenaManager" target="1.5" />
       <module name="BungeecordPartyAndFriends" target="1.7" />
       <module name="citizens" target="1.5" />
       <module name="citizens-main" target="1.6" />

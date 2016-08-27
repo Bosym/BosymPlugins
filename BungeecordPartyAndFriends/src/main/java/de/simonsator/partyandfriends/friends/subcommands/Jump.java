@@ -6,6 +6,7 @@ import de.simonsator.partyandfriends.api.pafplayers.OnlinePAFPlayer;
 import de.simonsator.partyandfriends.api.pafplayers.PAFPlayer;
 import de.simonsator.partyandfriends.utilities.PatterCollection;
 import de.simonsator.partyandfriends.utilities.StandardConnector;
+import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
@@ -51,12 +52,13 @@ public class Jump extends FriendSubCommand {
 		if (!serverExists(pPlayer, toJoin))
 			return;
 		if (isAlreadyOnServer(pPlayer.getPlayer(), toJoin)) {
-
+			teleportPlayer1ToPlayer2(pPlayer, friend);
 			return;
 		}
 
 		if (!allowsJumps(pPlayer, friend))
 			return;
+
 		connector.connect(pPlayer.getPlayer(), toJoin);
 		pPlayer.sendMessage(
 				new TextComponent(
@@ -64,6 +66,19 @@ public class Jump extends FriendSubCommand {
 								.matcher(getInstance().getMessagesYml()
 										.getString("Friends.Command.Jump.JoinedTheServer"))
 								.replaceAll(Matcher.quoteReplacement(friend.getDisplayName()))));
+		teleportPlayer1ToPlayer2(pPlayer, friend);
+	}
+
+	private void teleportPlayer1ToPlayer2(OnlinePAFPlayer p1, OnlinePAFPlayer p2) {
+		// run teleport command on server
+		String teleportcommand = "tp ";
+		teleportcommand += p1.getName() + " ";
+		teleportcommand += p2.getName();
+
+		ProxyServer.getInstance().getPluginManager().dispatchCommand(
+				ProxyServer.getInstance().getConsole(),
+				teleportcommand
+		);
 	}
 
 	private boolean serverExists(OnlinePAFPlayer pPlayer, ServerInfo toJoin) {
