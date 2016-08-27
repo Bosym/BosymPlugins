@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ArenaManager/ArenaManager.iml" filepath="$PROJECT_DIR$/ArenaManager/ArenaManager.iml" group="Bosym/Minigames" />
       <module fileurl="file://$PROJECT_DIR$/BungeecordPartyAndFriends/BungeecordPartyAndFriends.iml" filepath="$PROJECT_DIR$/BungeecordPartyAndFriends/BungeecordPartyAndFriends.iml" group="Forks" />
       <module fileurl="file://$PROJECT_DIR$/Forum/Forum.iml" filepath="$PROJECT_DIR$/Forum/Forum.iml" group="Bosym" />
+      <module fileurl="file://$PROJECT_DIR$/KingUndercover/KingUndercover.iml" filepath="$PROJECT_DIR$/KingUndercover/KingUndercover.iml" group="Bosym/Minigames" />
       <module fileurl="file://$PROJECT_DIR$/TeamSpeakVerifier/TeamSpeakVerifier.iml" filepath="$PROJECT_DIR$/TeamSpeakVerifier/TeamSpeakVerifier.iml" group="Bosym" />
       <module fileurl="file://$PROJECT_DIR$/Citizens2/dist/citizens.iml" filepath="$PROJECT_DIR$/Citizens2/dist/citizens.iml" group="Forks/Citizens" />
       <module fileurl="file://$PROJECT_DIR$/Citizens2/main/citizens-main.iml" filepath="$PROJECT_DIR$/Citizens2/main/citizens-main.iml" group="Forks/Citizens" />
