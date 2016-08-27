@@ -4,294 +4,13 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ae4e6b-3007-4bcb-b5f1-11650611d07d" name="Default" comment="Updated">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/TeamspeakVerifier-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/EventManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/KeepAliveThread.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/QueryIO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/SocketReader$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/SocketReader$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/SocketReader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/SocketWriter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3Api.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$16$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$25.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$26$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$26.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$27.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$28.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$29.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$30.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$31.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$32.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$33.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$34.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$35.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$36.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$37.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$38$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$38.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$39.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$40.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$41.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$42.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$43.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$44.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$45.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$46.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$47.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$48.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$49.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$7$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3ApiAsync.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3Config.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3Query$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3Query$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3Query$FloodRate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/TS3Query.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/Callback.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/ChannelProperty.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/ClientProperty.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/Codec.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CodecEncryptionMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture$FailureListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture$FutureState.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture$SuccessListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/CommandFuture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/HostBannerMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/HostMessageMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/LogLevel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/PermissionGroupDatabaseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/PermissionGroupType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/PrivilegeKeyType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/Property.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/ReasonIdentifier.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/ServerGroupType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/ServerInstanceProperty.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/Snapshot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/TextMessageTargetMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/VirtualServerProperty.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/VirtualServerStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/BaseEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ChannelCreateEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ChannelDeletedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ChannelDescriptionEditedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ChannelEditedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ChannelMovedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ChannelPasswordChangedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ClientJoinEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ClientLeaveEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ClientMovedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/PrivilegeKeyUsedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/ServerEditedEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/TS3Event.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/TS3EventAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/TS3EventType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/TS3Listener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/event/TextMessageEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/exception/TS3CommandFailedException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/exception/TS3ConnectionFailedException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/exception/TS3Exception.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/exception/TS3UnknownErrorException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/exception/TS3UnknownEventException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ConnectionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/DisconnectingConnectionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy$Constant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy$Disconnect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy$Exponential.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy$Linear.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy$UserControlled.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectStrategy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/reconnect/ReconnectingConnectionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Ban.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Binding.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Channel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelBase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelGroupClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ChannelInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ClientInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Complaint.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ConnectionInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/CreatedVirtualServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/DatabaseClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/DatabaseClientInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/HostInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/InstanceInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Message.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Permission.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/PermissionAssignment.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/PermissionInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/PrivilegeKey.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/QueryError.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ServerGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ServerGroupClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/ServerQueryInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Version.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/VirtualServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/VirtualServerInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/api/wrapper/Wrapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CBanAdd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CBanClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CBanDel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CBanDelAll.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CBanList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CBindingList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelAddPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelClientAddPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelClientDelPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelClientPermList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelCreate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelDelPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelDelete.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelEdit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelFind.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupAdd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupAddPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupClientList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupCopy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupDel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupDelPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupPermList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelGroupRename.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelMove.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CChannelPermList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientAddPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientDBDelete.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientDBEdit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientDBFind.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientDBInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientDBList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientDelPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientEdit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientFind.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientGetDBIdFromUId.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientGetIds.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientKick.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientMove.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientPermList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientPoke.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientSetServerQueryLogin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CClientUpdate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CComplainAdd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CComplainDel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CComplainDelAll.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CComplainList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CGM.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CHostInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CInstanceEdit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CInstanceInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CLogin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CLogout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CMessageAdd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CMessageDel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CMessageGet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CMessageList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CMessageUpdateFlag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPermFind.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPermGet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPermIdGetByName.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPermOverview.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPermReset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPermissionList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyAdd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyDelete.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CPrivilegeKeyUse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CQuit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CSendTextMessage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerCreate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerDelete.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerEdit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupAdd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupAddClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupAddPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupAutoAddPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupAutoDelPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupClientList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupCopy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupDel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupDelClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupDelPerm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupPermList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupRename.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerGroupsByClientId.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerIdGetByPort.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerNotifyRegister.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerNotifyUnregister.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerProcessStop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerRequestConnectionInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerSnapshotCreate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerSnapshotDeploy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerStart.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CServerStop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CSetClientChannelGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CUse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CVersion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CWhoAmI.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/Command.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/CommandEncoding.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/parameter/ArrayParameter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/parameter/KeyValueParam.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/parameter/OptionParam.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/parameter/Parameter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/parameter/RawParam.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/parameter/ValueParam.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/commands/response/DefaultArrayResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/com/github/theholywaffle/teamspeak3/log/LogHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/TS3Bot$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/TS3Bot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/VerifyWorker$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/commands/Teamspeak.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/commands/subcommands/Verify.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/db/MySQLDB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/helpers/Config$Exception.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/helpers/Config.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/helpers/Log$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/helpers/Log.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamSpeakVerifier/target/classes/me/mcmainiac/TeamSpeakVerifier/helpers/Messages.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_craftbukkit_1_10_R0_1_SNAPSHOT.xml" />
+    <list default="true" id="e8ae4e6b-3007-4bcb-b5f1-11650611d07d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGame.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaType.java" afterPath="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGamePlugin.java" afterPath="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGamePlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArenaManager/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/ArenaManager/src/main/resources/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Main.java" afterPath="$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Main.java" />
     </list>
     <ignored path="BosymPlugins.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -324,13 +43,56 @@
     <favorites_list name="BosymPlugins" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#567#757#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#249#257#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Listeners.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Listeners.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -374,12 +136,18 @@
         <option value="$PROJECT_DIR$/BungeecordPartyAndFriends/src/main/java/de/simonsator/partyandfriends/friends/subcommands/Jump.java" />
         <option value="$PROJECT_DIR$/ProxyCommandReceiver/pom.xml" />
         <option value="$PROJECT_DIR$/ArenaManager/pom.xml" />
-        <option value="$PROJECT_DIR$/ArenaManager/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MinigameArena.java" />
-        <option value="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaType.java" />
         <option value="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaManager.java" />
         <option value="$PROJECT_DIR$/ArenaManager/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/ArenaManagerMain.java" />
+        <option value="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGame.java" />
+        <option value="$PROJECT_DIR$/ArenaManager/src/main/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaType.java" />
+        <option value="$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGamePlugin.java" />
+        <option value="$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Main.java" />
+        <option value="$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/PlayerManager.java" />
+        <option value="$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Listeners.java" />
+        <option value="$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Game.java" />
       </list>
     </option>
   </component>
@@ -401,6 +169,54 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="KingUndercover" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="KingUndercover" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ArenaManager" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ArenaManager" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -739,6 +555,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -786,96 +606,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Minigames" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArenaManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BosymPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bosym" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minigames" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArenaManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BosymPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bosym" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minigames" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArenaManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BosymPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bosym" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minigames" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArenaManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArenaManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1350,7 +1080,21 @@
       <option name="project" value="LOCAL" />
       <updated>1472289930300</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated">
+      <created>1472290453855</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1472290453855</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated">
+      <created>1472291237743</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1472291237743</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1364,7 +1108,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28424656" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1373,12 +1117,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26369864" sideWeight="0.50319827" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26369864" sideWeight="0.4968017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2043379" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26369864" sideWeight="0.4968017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2043379" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.48972604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1388,9 +1134,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1423,6 +1167,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Updated .gitignore" />
     <MESSAGE value="Added new TeamSpeakVerifier Plugin" />
@@ -1441,49 +1186,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/TS3Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/VerifyWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/helpers/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamSpeakVerifier/src/main/java/me/mcmainiac/TeamSpeakVerifier/db/MySQLDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamspeakVerifier/at/freakey/tsverifier/bungee/BungeeCore.java" />
     <entry file="file://$PROJECT_DIR$/TeamspeakVerifier/at/freakey/tsverifier/bungee/utils/BungeePlayer.java" />
     <entry file="file://$PROJECT_DIR$/TeamspeakVerifier/at/freakey/tsverifier/bungee/utils/BungeeAsyncMySQL.java" />
     <entry file="file://$PROJECT_DIR$/TeamspeakVerifier/at/freakey/tsverifier/bungee/commands/TeamspeakCommand.java" />
@@ -1677,31 +1379,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArenaManager/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGameArena.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#153#154#0" expanded="false" />
+            <element signature="e#187#188#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
+            <element signature="e#259#260#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1723,6 +1410,103 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGameArena.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#177#178#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/ArenaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArenaManager/src/main/java/me/mcmainiac/ArenaManager/api/MiniGamePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#567#757#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/PlayerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Listeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KingUndercover/src/main/java/me/mcmainiac/KingUndercover/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#257#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1814,5 +1598,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$/ArenaManager" />
+    <option value="clean package install" />
   </component>
 </project>

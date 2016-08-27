@@ -2,6 +2,8 @@ name: ArenaManager
 version: 1.0
 author: MCMainiac
 
+loadbefore: [KingUndercover]
+
 main: me.mcmainiac.ArenaManager.ArenaManagerMain
 
 commands:

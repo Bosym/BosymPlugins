@@ -10,5 +10,6 @@ public enum ArenaType {
     TEAM42,
     TEAM44,
     TEAM48,
-    TEAM81
+    TEAM81,
+    UNSET
 }
