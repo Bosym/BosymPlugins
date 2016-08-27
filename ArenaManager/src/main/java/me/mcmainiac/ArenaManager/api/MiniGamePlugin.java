@@ -10,7 +10,7 @@ public abstract class MiniGamePlugin extends JavaPlugin {
     protected static String name = "Unknown Plugin";
     protected static ArenaType type = ArenaType.UNSET;
 
-    protected final static Logger log = Logger.getLogger("Minigame");
+    public final static Logger log = Logger.getLogger("Minigame");
 
     static {
         log.setUseParentHandlers(false);
