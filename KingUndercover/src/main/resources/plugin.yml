@@ -1,0 +1,7 @@
+name: KingUndercover
+version: 1.0
+author: MCMainiac
+
+depend: [ArenaManager]
+
+main: me.mcmainiac.KingUndercover
