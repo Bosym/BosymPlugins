@@ -26,14 +26,19 @@ class Game {
         this.log = plugin.log;
 
         this.cd.setStart(5);
-        this.cd.setSleepTime(1500);
+        this.cd.setSleepTime(2000);
+        this.cd.setDelay(5000);
         this.cd.setTickAction(new GameCountdown.TickAction() {
             public void run() {
-                if (this.getCurrent() > 1) {
+                if (this.getCurrent() == 5) {
+                    Bukkit.broadcastMessage("§aDas Spiel beginnt in");
+                    Bukkit.broadcastMessage("§65");
+                } else if (this.getCurrent() > 1) {
                     for (Player p : Bukkit.getOnlinePlayers())
                         p.playNote(p.getLocation(), Instrument.PIANO, Note.natural(1, Note.Tone.C));
-                    Title t = new Title("§6§l" + String.valueOf(this.getCurrent()), "§abis zum Start...");
-                    t.broadcast();
+                    /*Title t = new Title("§6§l" + String.valueOf(this.getCurrent()), "§abis zum Start...");
+                    t.broadcast();*/
+                    Bukkit.broadcastMessage("§6" + this.getCurrent());
                 } else {
                     Game.this.run();
                 }
@@ -45,6 +50,18 @@ class Game {
         state = GameState.STARTING;
         Thread t = new Thread(this.cd);
         t.start();
+    }
+
+    public void addPlayer(Player p) {
+        if (!state.equals(GameState.PREMATCH))
+            return;
+    }
+
+    public void removePlayer(Player p) {
+        if (!state.equals(GameState.PREMATCH))
+            return;
+
+        players.remove(p);
     }
 
     private void run() {
@@ -87,7 +104,7 @@ class Game {
                 break;
         }
 
-        Bukkit.broadcastMessage("§8Du wirst in 3s zurück zum Lobby Server geschickt.");
+        Bukkit.broadcastMessage("§8Du wirst in 10s zurück zum Lobby Server geschickt.");
         Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
             public void run() {
                 for (Player p : Bukkit.getOnlinePlayers())
@@ -95,7 +112,7 @@ class Game {
 
                 Game.this.exit();
             }
-        }, 3000);
+        }, 10000);
     }
 
     public void exit() {

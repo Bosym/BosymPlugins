@@ -4,6 +4,7 @@ public class GameCountdown implements Runnable {
     private int start = 10;
     private boolean running = false;
     private long sleeptime = 1000;
+    private long delay = 0;
     private TickAction tickAction = new TickAction() { public void run() {} };
 
     public void setStart(int start) {
@@ -18,9 +19,16 @@ public class GameCountdown implements Runnable {
         this.sleeptime = sleeptime;
     }
 
+    public void setDelay(long delay) {
+        this.delay = delay;
+    }
+
     public void run() {
         try {
             running = true;
+
+            if (this.delay > 0)
+                Thread.sleep(this.delay);
 
             for (int i = this.start; i >= 0; i--) {
                 if (!this.running) break;

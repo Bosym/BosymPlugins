@@ -1,5 +1,6 @@
 package me.mcmainiac.ArenaManager.api;
 
+import me.mcmainiac.ArenaManager.api.utils.ArenaType;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Handler;

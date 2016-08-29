@@ -18,7 +18,7 @@ class Listeners implements Listener {
 
         Bukkit.broadcastMessage("§6" + e.getPlayer().getDisplayName() + " §7hat das Spiel betreten!");
 
-        if (Bukkit.getOnlinePlayers().size() == Game.minplayers) // only for development
+        if (Bukkit.getOnlinePlayers().size() == Game.minplayers)
             g.start();
         else
             Bukkit.broadcastMessage("§a" + Bukkit.getOnlinePlayers().size() + "§7/§6" + Game.minplayers + " §aSpieler");

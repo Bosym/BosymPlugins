@@ -1,7 +1,7 @@
 package me.mcmainiac.KingUndercover;
 
-import me.mcmainiac.ArenaManager.api.ArenaType;
 import me.mcmainiac.ArenaManager.api.MiniGamePlugin;
+import me.mcmainiac.ArenaManager.api.utils.ArenaType;
 import org.bukkit.Bukkit;
 
 public class Main extends MiniGamePlugin {
