@@ -31,17 +31,16 @@
         <module name="TeamSpeakVerifier" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="ArenaManager" target="1.5" />
       <module name="BungeecordPartyAndFriends" target="1.7" />
-      <module name="citizens" target="1.5" />
-      <module name="citizens-main" target="1.6" />
-      <module name="citizens-parent" target="1.5" />
-      <module name="citizens-v1_10_R1" target="1.6" />
+      <module name="citizens" target="1.8" />
+      <module name="citizens-main" target="1.8" />
+      <module name="citizens-v1_10_R1" target="1.8" />
       <module name="Forum" target="1.7" />
       <module name="KingUndercover" target="1.5" />
+      <module name="TeamSpeakBotTest" target="1.8" />
       <module name="TeamSpeakVerifier" target="1.7" />
-      <module name="UltimateReport" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
