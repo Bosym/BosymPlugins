@@ -9,13 +9,14 @@ import com.github.theholywaffle.teamspeak3.api.event.TS3EventType;
 import com.github.theholywaffle.teamspeak3.api.event.TextMessageEvent;
 import com.github.theholywaffle.teamspeak3.api.wrapper.ClientInfo;
 import me.mcmainiac.TeamSpeakVerifier.helpers.Config;
+import me.mcmainiac.TeamSpeakVerifier.helpers.Log;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 
 import java.util.UUID;
 
-public class VerifyWorker implements Runnable {
+class VerifyWorker implements Runnable {
     private final int clientid;
     private final TS3Query query;
     private String code;
@@ -39,18 +40,28 @@ public class VerifyWorker implements Runnable {
         api.addTS3Listeners(new TS3EventAdapter() {
             @Override
             public void onTextMessage(TextMessageEvent e) {
+                Log.info("Received a message!");
+
+                if (e.getInvokerName().equals(Config.getString("teamspeak.nickname")) ||
+                        e.getInvokerId() != clientid)
+                    return;
+
+                Log.info(e.getInvokerName() + " wrote me a message");
+
                 if (!e.getTargetMode().equals(TextMessageTargetMode.CLIENT))
                     return;
 
+                Log.info("[" + Config.getString("teamspeak.nickname") + "] Rcv: " + e.getMessage() + ", from: " + e.getInvokerName() + " (" + e.getInvokerId() + ")");
+
                 if (!e.getMessage().startsWith(Config.getString("teamspeak.command"))) {
-                    api.sendTextMessage(TextMessageTargetMode.CLIENT, clientid, Config.getString("teamspeak.messages.oninvalidmessage"));
+                    api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.oninvalidmessage"));
                     return;
                 }
 
                 String[] args = e.getMessage().split(" ");
 
                 if (args.length != 2) {
-                    api.sendTextMessage(TextMessageTargetMode.CLIENT, clientid, Config.getString("teamspeak.messages.ontoofewarguments"));
+                    api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.ontoofewarguments"));
                     return;
                 }
 
@@ -59,27 +70,27 @@ public class VerifyWorker implements Runnable {
 
                     code = UUID.randomUUID().toString().substring(0, 5);
 
-                    String message = Config.getString("minecraft.messages.invite");
-                    message.replace("/(\\%CODE\\%)/", code);
-                    p.sendMessage(new TextComponent(message));
+                    Log.info(code);
+                    String message = Config.getString("teamspeak.messages.invite");
+                    Log.info(message);
+                    message = message.replace("/(\\%CODE\\%)/i", code);
+                    Log.info(message);
+                    api.sendPrivateMessage(clientid, message);
+
+                    p.sendMessage(new TextComponent(Config.getString("minecraft.messages.invite")));
 
                     Main.getBot().addCode(code, VerifyWorker.this);
-                } else {
-                    api.sendTextMessage(TextMessageTargetMode.CLIENT, clientid, Config.getString("teamspeak.messages.mcusernotonline"));
-                    return;
-                }
+                } else
+                    api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.mcusernotonline"));
             }
         });
     }
 
-    public boolean verify(String code) {
-        if (code.equals(this.code))
-            return true;
-        else
-            return false;
+    boolean verify(String code) {
+        return (code.equals(this.code));
     }
 
-    public ClientInfo getClientInfo() {
+    ClientInfo getClientInfo() {
         final TS3Api api = Main.getTS3Api(query);
 
         return api.getClientInfo(clientid);

@@ -81,12 +81,12 @@ public class TS3Bot {
             return false;
     }
 
-    public void disconnect() {
+    void disconnect() {
         if (query != null)
             query.exit();
     }
 
-    public void addCode(String code, VerifyWorker worker) {
+    void addCode(String code, VerifyWorker worker) {
         this.codes.put(code, worker);
     }
 }

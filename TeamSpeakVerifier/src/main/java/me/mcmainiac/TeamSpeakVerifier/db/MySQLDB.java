@@ -6,6 +6,7 @@ import me.mcmainiac.TeamSpeakVerifier.helpers.Log;
 import java.sql.*;
 import java.util.HashMap;
 
+@SuppressWarnings("unused")
 public class MySQLDB {
     private String host = "localhost",
             username = "root",
@@ -30,11 +31,7 @@ public class MySQLDB {
     }
 
     private void checkDriver() throws ClassNotFoundException {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            throw e;
-        }
+        Class.forName("com.mysql.jdbc.Driver");
     }
 
     public void connect() throws SQLException, ClassNotFoundException {
@@ -123,7 +120,7 @@ public class MySQLDB {
 
         reset = false;
         lastQuery = sql;
-        if (Config.getBoolean("debug"));
+        if (Config.getBoolean("debug"))
             Log.info("Executing query: \"" + sql + "\"");
         Statement stmt = con.createStatement();
         stmt.executeQuery(sql);

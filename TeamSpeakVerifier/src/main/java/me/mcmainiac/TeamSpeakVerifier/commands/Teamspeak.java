@@ -6,7 +6,7 @@ import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;
 
 public class Teamspeak extends Command {
-    private Teamspeak(String label) {
+    public Teamspeak() {
         super("teamspeak");
     }
 
