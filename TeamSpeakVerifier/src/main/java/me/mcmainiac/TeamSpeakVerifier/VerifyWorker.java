@@ -63,7 +63,11 @@ class VerifyWorker implements Runnable {
                     return;
                 }
 
+                Log.info("Processing " + e.getInvokerName() + "s command...");
+
                 if (ProxyServer.getInstance().getPlayer(args[1]).isConnected()) {
+                    Log.info(e.getInvokerName() + " used a player name who is online right now!");
+
                     ProxiedPlayer p = ProxyServer.getInstance().getPlayer(args[1]);
 
                     code = UUID.randomUUID().toString().substring(0, 5);
@@ -81,8 +85,8 @@ class VerifyWorker implements Runnable {
 
                     Main.getBot().addCode(code, VerifyWorker.this);
                 } else {
-                    api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.mcusernotonline"));
                     Log.info(e.getInvokerName() + " tried to register a minecraft account that isn't on the server!");
+                    api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.mcusernotonline"));
                 }
             }
         });
