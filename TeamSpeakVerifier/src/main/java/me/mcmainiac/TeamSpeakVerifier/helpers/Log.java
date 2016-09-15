@@ -1,7 +1,5 @@
 package me.mcmainiac.TeamSpeakVerifier.helpers;
 
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 public class Log {
@@ -9,31 +7,11 @@ public class Log {
 
     private static final String prefix = "[TeamSpeakVerifier]: ";
 
-    static {
-        log.setUseParentHandlers(false);
-        log.addHandler(new Handler() {
-            @Override
-            public void publish(LogRecord record) {
-                System.out.println(prefix + record.getMessage());
-            }
-
-            @Override
-            public void flush() {
-
-            }
-
-            @Override
-            public void close() throws SecurityException {
-
-            }
-        });
-    }
-
     public static void info(String msg) {
-        log.info(msg);
+        log.info(prefix + msg);
     }
 
     public static void severe(String msg) {
-        log.severe(msg);
+        log.severe(prefix + msg);
     }
 }

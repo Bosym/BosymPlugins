@@ -150,7 +150,7 @@ public class Main extends Plugin {
         return bot;
     }
 
-    public static MySQLDB getDb() throws SQLException {
+    static MySQLDB getDb() throws SQLException {
         try {
             if (db == null)
                 db = new MySQLDB(

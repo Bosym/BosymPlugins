@@ -40,21 +40,18 @@ class VerifyWorker implements Runnable {
         api.addTS3Listeners(new TS3EventAdapter() {
             @Override
             public void onTextMessage(TextMessageEvent e) {
-                Log.info("Received a message!");
-
                 if (e.getInvokerName().equals(Config.getString("teamspeak.nickname")) ||
                         e.getInvokerId() != clientid)
                     return;
 
-                Log.info(e.getInvokerName() + " wrote me a message");
-
                 if (!e.getTargetMode().equals(TextMessageTargetMode.CLIENT))
                     return;
 
-                Log.info("[" + Config.getString("teamspeak.nickname") + "] Rcv: " + e.getMessage() + ", from: " + e.getInvokerName() + " (" + e.getInvokerId() + ")");
+                Log.info("[" + e.getInvokerName() + "](" + e.getInvokerId() + "): " + e.getMessage());
 
                 if (!e.getMessage().startsWith(Config.getString("teamspeak.command"))) {
                     api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.oninvalidmessage"));
+                    Log.info(e.getInvokerName() + " entered an invalid command!");
                     return;
                 }
 
@@ -62,6 +59,7 @@ class VerifyWorker implements Runnable {
 
                 if (args.length != 2) {
                     api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.ontoofewarguments"));
+                    Log.info(e.getInvokerName() + "used too few args!");
                     return;
                 }
 
@@ -79,9 +77,13 @@ class VerifyWorker implements Runnable {
 
                     p.sendMessage(new TextComponent(Config.getString("minecraft.messages.invite")));
 
+                    Log.info(e.getInvokerName() + " has received their code to activate their account!");
+
                     Main.getBot().addCode(code, VerifyWorker.this);
-                } else
+                } else {
                     api.sendPrivateMessage(clientid, Config.getString("teamspeak.messages.mcusernotonline"));
+                    Log.info(e.getInvokerName() + " tried to register a minecraft account that isn't on the server!");
+                }
             }
         });
     }
